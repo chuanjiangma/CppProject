@@ -5,6 +5,7 @@ target_link_libraries(TemplateTest
     Template
     gtest_main
     gtest
+    pthread
 )
 
 add_test(TemplateTest TemplateTest WORKING_DIRECTORY ${EXECUTABLE_OUTPUT_PATH})

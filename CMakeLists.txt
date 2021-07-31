@@ -12,7 +12,7 @@ cmake_minimum_required(VERSION 3.11)
 add_definitions(-std=c++17)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
-set(LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 
 include_directories(
     ${PROJECT_SOURCE_DIR}/include
